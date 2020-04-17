@@ -39,7 +39,7 @@ const config = {
   test: { },
   development: {
     mongo: {
-      uri: 'mongodb://localhost/trackorona-server-dev',
+      uri: 'mongodb+srv://track:trackorona@trackorona-llcl9.mongodb.net/test?retryWrites=true&w=majority',
       options: {
         debug: true
       }
