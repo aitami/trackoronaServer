@@ -45,13 +45,13 @@ const config = {
       }
     }
   },
-  // production: {
-  //   ip: process.env.IP || undefined,
-  //   port: process.env.PORT || 8080,
-  //   mongo: {
-  //     uri: process.env.MONGODB_URI || 'mongodb://localhost/trackorona-server'
-  //   }
-  // }
+  production: {
+    ip: process.env.IP || undefined,
+    port: process.env.PORT || 8080,
+    mongo: {
+      uri: 'mongodb+srv://track:trackorona@trackorona-llcl9.mongodb.net/test?retryWrites=true&w=majority',
+    }
+  }
 }
 
 module.exports = merge(config.all, config[config.all.env])
