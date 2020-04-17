@@ -49,7 +49,7 @@ const config = {
     ip: process.env.IP || undefined,
     port: process.env.PORT || 8080,
     mongo: {
-      uri: 'mongodb+srv://track:trackorona@trackorona-llcl9.mongodb.net/test?retryWrites=true&w=majority',
+      uri: process.env.MONGODB_URI || 'mongodb://localhost/trackorona-server'
     }
   }
 }
