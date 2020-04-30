@@ -26,8 +26,8 @@ const config = {
     port: process.env.PORT || 9000,
     ip: process.env.IP || '0.0.0.0',
     apiRoot: process.env.API_ROOT || '',
-    masterKey: 'wxAGWERDDJhfYzKtgoMZSFZXZqfFZK7y',
-    jwtSecret: 'GYBV5KyqQiscgTBEBdbBvBgGrLJexVTV',
+    masterKey: requireProcessEnv('MASTER_KEY'),
+    jwtSecret: requireProcessEnv('JWT_SECRET'),
     mongo: {
       options: {
         useUnifiedTopology: true,
@@ -39,7 +39,7 @@ const config = {
   test: { },
   development: {
     mongo: {
-      uri: 'mongodb+srv://track:trackorona@trackorona-llcl9.mongodb.net/test?retryWrites=true&w=majority',
+      uri: 'mongodb://localhost/trackorona-server-dev',
       options: {
         debug: true
       }
@@ -49,7 +49,7 @@ const config = {
     ip: process.env.IP || undefined,
     port: process.env.PORT || 8080,
     mongo: {
-      uri: 'mongodb+srv://track:trackorona@trackorona-llcl9.mongodb.net/test?retryWrites=true&w=majority',
+      uri: process.env.MONGODB_URI || 'mongodb://localhost/trackorona-server'
     }
   }
 }
