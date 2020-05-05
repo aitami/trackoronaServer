@@ -22,7 +22,7 @@ services:
     ports:
       - "9000:9000"
     volumes:
-      - "./trackoronarest/app:/trackoronarest"
+      - "./trackoronarest/app:/trackoronaRest"
     links:
       - trackoronadb:trackoronadb
     environment:
