@@ -1,4 +1,4 @@
-FROM node:6
+FROM node:latest
 Maintainer "Othmane AIT AMI - othmane.aitami@gmail.com"
 
 ##install programs
