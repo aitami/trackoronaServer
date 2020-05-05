@@ -8,7 +8,7 @@ COPY env/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 RUN mkdir -p /var/log/supervisor && mkdir -p /var/log/babel
 
-WORKDIR /unemRest
+WORKDIR /trackoronaRest
 
 RUN npm install -g nodemon babel-cli babel-preset-env yo generator-rest 
 
