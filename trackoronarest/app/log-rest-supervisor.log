@@ -1,0 +1,1196 @@
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1 --ignore=node_modules`[39m
+/usr/local/bin/node: bad option: --ignore=node_modules
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1 --ignore=node_modules`[39m
+/usr/local/bin/node: bad option: --ignore=node_modules
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1 --ignore=node_modules`[39m
+/usr/local/bin/node: bad option: --ignore=node_modules
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node .`[39m
+internal/fs/utils.js:259
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/trackoronaRest/.env.example'
+    at Object.openSync (fs.js:461:3)
+    at Object.readFileSync (fs.js:364:35)
+    at Object.config (/trackoronaRest/node_modules/dotenv-safe/index.js:27:45)
+    at Object.<anonymous> (/trackoronaRest/src/config.js:16:10)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Module._compile (/trackoronaRest/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Object.newLoader [as .js] (/trackoronaRest/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/trackoronaRest/.env.example'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node .`[39m
+(node:22) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:22) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:22) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node .`[39m
+(node:89) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:89) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:89) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:89) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+[0mGET / [33m404[0m 2.672 ms - 139[0m
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node .`[39m
+(node:116) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:116) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:116) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:116) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1 --ignore=node_modules`[39m
+/usr/local/bin/node: bad option: --ignore=node_modules
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1 --ignore=node_modules`[39m
+/usr/local/bin/node: bad option: --ignore=node_modules
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1 --ignore=node_modules`[39m
+/usr/local/bin/node: bad option: --ignore=node_modules
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-modules-commonjs/lib/index.js:21:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:180
+          throw new ReferenceError(messages.get("pluginUnknown", plugin, loc, i, dirname));
+          ^
+
+ReferenceError: Unknown plugin "@babel/plugin-transform-runtime" specified in "/trackoronaRest/.babelrc" at 0, attempted to resolve relative to "/trackoronaRest"
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:180:17
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1`[39m
+/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:72
+  throw Object.assign(err, {
+  ^
+
+Error: Requires Babel "^7.0.0-0", but was loaded with "6.26.3". If you are sure you have a compatible version of @babel/core, it is likely that something in your build process is loading the wrong version. Inspect the stack trace of this error to look for the first entry that doesn't mention "@babel/core" or "babel-core" to see what is calling Babel.
+    at throwVersionError (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:65:11)
+    at Object.assertVersion (/trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:13:11)
+    at /trackoronaRest/node_modules/@babel/plugin-transform-runtime/lib/index.js:46:7
+    at /trackoronaRest/node_modules/@babel/helper-plugin-utils/lib/index.js:19:12
+    at Function.memoisePluginContainer (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:113:13)
+    at Function.normalisePlugin (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:146:32)
+    at /usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:184:30
+    at Array.map (<anonymous>)
+    at Function.normalisePlugins (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:158:20)
+    at OptionManager.mergeOptions (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:234:36)
+    at OptionManager.init (/usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)
+    at compile (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:103:45)
+    at loader (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:144:14)
+    at Object.require.extensions.<computed> [as .js] (/usr/local/lib/node_modules/babel-cli/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at Object.<anonymous> (/usr/local/lib/node_modules/babel-cli/lib/_babel-node.js:154:22)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47 {
+  code: 'BABEL_VERSION_UNSUPPORTED',
+  version: '6.26.3',
+  range: '^7.0.0-0'
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 2.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `babel-node ./src/app.js --presets=es2015,stage-1 --ignore=node_modules`[39m
+/usr/local/bin/node: bad option: --ignore=node_modules
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+(node:9) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:9) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:9) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:28) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:28) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:28) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:28) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:40) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:40) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:40) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:40) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:52) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:52) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:52) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:52) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:64) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:64) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:64) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:64) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:76) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:76) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:76) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:76) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+[0mGET / [33m404[0m 2.699 ms - 139[0m
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:88) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:88) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:88) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:88) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+(node:9) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:9) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:9) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:28) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:28) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:28) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:28) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:40) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:40) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:40) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:40) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+(node:10) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:10) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:10) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:22) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:22) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:22) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:34) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:34) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:34) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:34) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:46) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:46) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:46) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:58) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:58) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:58) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:58) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:70) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:70) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:70) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:70) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:88) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:88) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:88) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:88) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:100) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:100) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:100) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:100) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:112) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:112) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:112) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:112) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:124) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:124) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:124) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:124) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:136) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:136) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:136) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:136) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:148) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:148) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:148) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:148) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:160) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:160) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:160) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:160) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:172) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:172) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:172) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:172) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:184) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:184) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:184) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:184) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:196) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:196) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:196) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:196) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:208) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:208) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:208) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:208) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:220) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:220) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:220) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:220) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:232) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:232) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:232) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:232) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:244) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:244) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:244) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:244) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:256) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:256) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:256) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:256) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:268) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:268) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:268) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:268) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:280) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:280) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:280) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:280) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:292) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:292) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:292) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:292) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:304) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:304) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:304) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:304) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:316) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:316) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:316) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:316) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:328) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:328) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:328) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:328) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:340) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:340) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:340) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:340) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:352) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:352) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:352) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:352) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:364) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:364) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:364) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:364) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+[0mGET / [33m404[0m 2.762 ms - 139[0m
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:376) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:376) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:376) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:376) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:394) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:394) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:394) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:394) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:406) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:406) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:406) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:406) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:419) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:419) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:419) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:419) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+(node:431) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:431) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:431) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:431) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+(node:444) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:444) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:444) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:444) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+[0;36mMongoose:[0m users.createIndex({ phone: [33m1[39m }, { unique: [33mtrue[39m, background: [33mtrue[39m })
+[0;36mMongoose:[0m users.createIndex({ firebaseUid: [33m1[39m }, { unique: [33mtrue[39m, background: [33mtrue[39m })
+[0;36mMongoose:[0m users.createIndex({ deviceId: [33m1[39m }, { unique: [33mtrue[39m, background: [33mtrue[39m })
+[0;36mMongoose:[0m users.createIndex({ keywords: [33m1[39m }, { background: [33mtrue[39m })
+[0mGET / [33m404[0m 3.315 ms - 139[0m
+(node:9) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:9) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:9) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+[0;36mMongoose:[0m users.createIndex({ phone: [33m1[39m }, { unique: [33mtrue[39m, background: [33mtrue[39m })
+[0;36mMongoose:[0m users.createIndex({ firebaseUid: [33m1[39m }, { unique: [33mtrue[39m, background: [33mtrue[39m })
+[0;36mMongoose:[0m users.createIndex({ deviceId: [33m1[39m }, { unique: [33mtrue[39m, background: [33mtrue[39m })
+[0;36mMongoose:[0m users.createIndex({ keywords: [33m1[39m }, { background: [33mtrue[39m })
+(node:9) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:9) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:9) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+Express server listening on http://0.0.0.0:9000, in development mode
+[0;36mMongoose:[0m users.createIndex({ phone: [33m1[39m }, { unique: [33mtrue[39m, background: [33mtrue[39m })
+[0;36mMongoose:[0m users.createIndex({ firebaseUid: [33m1[39m }, { unique: [33mtrue[39m, background: [33mtrue[39m })
+[0;36mMongoose:[0m users.createIndex({ deviceId: [33m1[39m }, { unique: [33mtrue[39m, background: [33mtrue[39m })
+[0;36mMongoose:[0m users.createIndex({ keywords: [33m1[39m }, { background: [33mtrue[39m })
+{
+  body: {
+    phone: '+212658280224',
+    firstName: undefined,
+    lastName: undefined,
+    gender: undefined,
+    age: undefined,
+    diabetes: undefined,
+    cardio: undefined,
+    pneumo: undefined,
+    illnessScore: 0,
+    contactedPeople: undefined,
+    locations: undefined,
+    firebaseUid: 'qwe8qwejwqee8404',
+    deviceId: 'testdeviceid9239e8404',
+    defaultLocation: undefined,
+    defaultConfinementDistance: 50
+  }
+}
+[0;36mMongoose:[0m users.insertOne({ illnessScore: [33m0[39m, role: [32m'user'[39m, defaultConfinementDistance: [33m50[39m, _id: ObjectId("5eb18483c8ea8a0009aac86d"), keywords: [ [32m'212658280224'[39m ], phone: [32m'+212658280224'[39m, contactedPeople: [], locations: [], firebaseUid: [32m'qwe8qwejwqee8404'[39m, deviceId: [32m'testdeviceid9239e8404'[39m, defaultLocation: [], voices: [], createdAt: new Date("Tue, 05 May 2020 15:21:39 GMT"), updatedAt: new Date("Tue, 05 May 2020 15:21:39 GMT"), __v: [33m0[39m}, { session: [1mnull[22m })
+{
+  user: {
+    illnessScore: 0,
+    role: 'user',
+    defaultConfinementDistance: 50,
+    _id: 5eb18483c8ea8a0009aac86d,
+    keywords: [ '212658280224' ],
+    phone: '+212658280224',
+    contactedPeople: [],
+    locations: [],
+    firebaseUid: 'qwe8qwejwqee8404',
+    deviceId: 'testdeviceid9239e8404',
+    defaultLocation: [],
+    voices: [],
+    createdAt: 2020-05-05T15:21:39.642Z,
+    updatedAt: 2020-05-05T15:21:39.642Z,
+    __v: 0
+  }
+}
+[0mPOST /users [32m201[0m 57.839 ms - 450[0m
