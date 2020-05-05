@@ -1,0 +1,35 @@
+version: '1'
+services:
+  ############# NEW CONTAINERS
+
+  trackoronadb:
+    image: mongo:4.0.2
+    container_name: trackoronaDbContainer
+    ports:
+      - "27027:27017"
+    volumes:
+      - /data/db:/data/db
+      - ./trackoronadb:/data
+    environment:
+      - TERM:xterm
+    #cpu_shares: 100
+    #mem_limit: 1g
+
+  trackoronarest:
+    build: ./trackoronarest/.
+    image: trackoronaimage:latest
+    container_name: trackoronaRestContainer
+    ports:
+      - "9000:9000"
+    volumes:
+      - "./trackoronarest/app:/trackoronarest"
+    links:
+      - trackoronadb:trackoronadb
+    environment:
+      - TERM=xterm
+      - MASTER_KEY=wxAGWERDDJhfYzKtgoMZSFZXZqfFZK7y
+      - JWT_SECRET=GYBV5KyqQiscgTBEBdbBvBgGrLJexVTV
+      - MONGODB_DEV_URI=${MONGODB_URI}
+    tty: true
+    #cpu_shares: 100
+    #mem_limit: 2g
