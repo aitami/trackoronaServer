@@ -27,8 +27,8 @@ services:
       - trackoronadb:trackoronadb
     environment:
       - TERM=xterm
-      - MASTER_KEY=wxAGWERDDJhfYzKtgoMZSFZXZqfFZK7y
-      - JWT_SECRET=GYBV5KyqQiscgTBEBdbBvBgGrLJexVTV
+      - MASTER_KEY=${TRACKORONA_MASTER_KEY}
+      - JWT_SECRET=${TRACKORONA_JWT_SECRET}
       - MONGODB_DEV_URI=${MONGODB_URI}
     tty: true
     #cpu_shares: 100
